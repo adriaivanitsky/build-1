@@ -8,8 +8,8 @@ describe('Build #1 Tests', ()=>{
             cy.get('button#generate').should('be.visible');
         });
     
-        it('contains a <p> with the id #random-num', ()=>{
-            cy.get('p#random-num').should('be.empty');
+        it('contains a button', ()=>{
+            cy.get('button').should('be.empty');
         });
     });
     
