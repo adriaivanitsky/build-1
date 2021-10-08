@@ -13,10 +13,10 @@ describe('Build #1 Tests', ()=>{
         });
     });
     
-    describe('Random number generator', ()=>{
-        it('should generate a random number when button is clicked', ()=>{
-            cy.get('button#generate').click();
-            cy.get('p#random-num').should('not.be.empty');
-        });
-    });
-});
+//     describe('Random number generator', ()=>{
+//         it('should generate a random number when button is clicked', ()=>{
+//             cy.get('button#generate').click();
+//             cy.get('p#random-num').should('not.be.empty');
+//         });
+//     });
+// });
