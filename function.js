@@ -1,3 +1,4 @@
-export function random(maxLimit = 100){
-    return Math.random() * maxLimit;
+export function random(min, max){
+    let randomNum = Math.random() * (max - min) + min;
+    return Math.round(randomNum);
 }
